@@ -17,7 +17,7 @@ const Overview = () => {
 
   return (
     <>
-      {pickups.length !== 0 && pickups.map(pickup => (
+      {(pickups || []).map(pickup => (
         <OverviewItem 
           key={pickup.date}
           data={pickup}
