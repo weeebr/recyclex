@@ -1,16 +1,15 @@
 import React from "react";
 import { DatePicker, MuiPickersUtilsProvider } from "@material-ui/pickers";
-import DateFnsUtils from '@date-io/date-fns';
-import localeDE from 'date-fns/locale/de';
-import { makeStyles } from '@material-ui/core/styles';
+import DateFnsUtils from "@date-io/date-fns";
+import localeDE from "date-fns/locale/de";
+import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    margin: '12px 0',
-    width: '100%'
+    margin: "12px 0",
+    width: "100%"
   }
 }));
-
 
 const DateField = ({ value, onChange }) => {
   const classes = useStyles();

@@ -11,10 +11,9 @@ const MultiSelect = ({ config, onChange, value }) => {
   const classes = useStyles();
 
   const options = config.suggestions.map(suggestion => ({
-      value: suggestion,
-      label: suggestion
-    })
-  );
+    value: suggestion,
+    label: suggestion
+  }));
 
   return (
     <div className={classes.root}>
@@ -37,7 +36,7 @@ const MultiSelect = ({ config, onChange, value }) => {
       />
     </div>
   );
-}
+};
 
 function inputComponent({ inputRef, ...props }) {
   return <div ref={inputRef} {...props} />;

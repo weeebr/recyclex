@@ -1,20 +1,19 @@
-import FormControl from '@material-ui/core/FormControl';
-import Input from '@material-ui/core/Input';
-import InputAdornment from '@material-ui/core/InputAdornment';
-import InputLabel from '@material-ui/core/InputLabel';
-import { makeStyles } from '@material-ui/core/styles';
-import React from 'react';
-
+import FormControl from "@material-ui/core/FormControl";
+import Input from "@material-ui/core/Input";
+import InputAdornment from "@material-ui/core/InputAdornment";
+import InputLabel from "@material-ui/core/InputLabel";
+import { makeStyles } from "@material-ui/core/styles";
+import React from "react";
 
 const useStyles = makeStyles(theme => ({
   root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    padding: '12px 0',
-    width: '100%',
+    display: "flex",
+    flexWrap: "wrap",
+    padding: "12px 0",
+    width: "100%"
   },
   endAdornment: {
-    marginLeft: 0,
+    marginLeft: 0
   }
 }));
 
@@ -30,11 +29,11 @@ const Amount = ({ value }) => {
           className={classes.input}
           value={value}
           type="number"
-          startAdornment={
-            <InputAdornment position="start">CHF</InputAdornment>
-          }
+          startAdornment={<InputAdornment position="start">CHF</InputAdornment>}
           endAdornment={
-            <InputAdornment className={classes.endAdornment} position="end">.00</InputAdornment>
+            <InputAdornment className={classes.endAdornment} position="end">
+              .00
+            </InputAdornment>
           }
         />
       </FormControl>
