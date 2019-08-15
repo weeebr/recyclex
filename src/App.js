@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Helmet>
-        <title>Pickup Manager | RED Struss</title>
+        <title>Recyclex | RED Struss</title>
         <meta name="description" content="Pickup Manager" />
         <meta
           name="viewport"
