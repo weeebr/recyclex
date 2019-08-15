@@ -9,6 +9,7 @@
     "@material-ui/pickers": "^3.2.2",
     "autosuggest-highlight": "^3.1.1",
     "date-fns": "^2.0.0-beta.3",
+    "eslint": "^6.1.0",
     "firebase": "^6.3.4",
     "react": "^16.8.6",
     "react-autosuggest": "^9.4.3",
@@ -16,9 +17,7 @@
     "react-helmet": "^5.2.1",
     "react-icons": "^3.7.0",
     "react-scripts": "3.0.1",
-    "react-select": "^3.0.4",
-    "storeon": "^0.9.2",
-    "write-json-file": "^4.2.0"
+    "react-select": "^3.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,7 +26,36 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "airbnb",
+      "eslint:recommended"
+    ],
+    "env": {
+      "node": false,
+      "es6": true,
+      "browser": true
+    },
+    "rules": {
+      "semi": "error",
+      "no-unused-vars": "off",
+      "func-names": "off",
+      "indent": "off",
+      "no-else-return": "off",
+      "prefer-arrow-callback": "off",
+      "no-undef": "off",
+      "no-use-before-define": "off",
+      "comma-dangle": "off",
+      "eol-last": "off",
+      "no-trailing-spaces": "off",
+      "linebreak-style": "off",
+      "no-console": "off",
+      "no-restricted-globals": "off",
+      "object-shorthand": "off",
+      "no-shadow": "off",
+      "no-debugger": "off",
+      "prefer-const": "off",
+      "no-multiple-empty-lines": "off"
+    }
   },
   "browserslist": {
     "production": [
