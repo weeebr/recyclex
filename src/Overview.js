@@ -17,8 +17,8 @@ const Overview = () => {
 
   return (
     <>
-      {(pickups || []).map(pickup => (
-        <OverviewItem key={pickup.date} data={pickup} />
+      {(pickups || []).map((pickup, index) => (
+        <OverviewItem key={index} data={pickup} />
       ))}
     </>
   );

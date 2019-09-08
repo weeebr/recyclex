@@ -9,9 +9,8 @@
     "@material-ui/pickers": "^3.2.2",
     "autosuggest-highlight": "^3.1.1",
     "date-fns": "^2.0.0-beta.3",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
     "firebase": "^6.3.4",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-autosuggest": "^9.4.3",
     "react-dom": "^16.8.6",
@@ -37,5 +36,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
   }
 }

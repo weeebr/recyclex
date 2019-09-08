@@ -6,8 +6,8 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(3, 2),
-    margin: "20px 0"
-  }
+    margin: "20px 0",
+  },
 }));
 
 const OverviewItem = ({ data }) => {

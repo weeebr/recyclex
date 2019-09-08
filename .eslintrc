@@ -1,6 +1,7 @@
 {
   "extends": "airbnb",
   "parser": "babel-eslint",
+  "plugins": ["react"],
   "env": {
     "node": true,
     "es6": true,
@@ -10,6 +11,14 @@
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "implicit-arrow-linebreak": "off",
     "indent": "off",
-    "no-trailing-spaces": "error"
+    "no-trailing-spaces": "error",
+    "linebreak-style": "off",
+    "arrow-parens": "off",
+    "quotes": "off",
+    "object-curly-newline": "off",
+    "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-array-index-key": "off",
+    "react/jsx-props-no-spreading": "off"
   }
 }
